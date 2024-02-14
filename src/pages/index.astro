@@ -1,0 +1,50 @@
+---
+import { info } from "@data";
+
+import Layout from "@layouts/Layout.astro";
+import Home from "@components/home/Home.astro";
+import Experience from "@components/home/Experience.astro";
+import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+
+const featureProjects = info.projects.reduce((accumulator, project) => {
+  if (accumulator.length < 6 && project.isFeatured) {
+    accumulator.push(project);
+  }
+  return accumulator;
+}, []);
+const featureCertification = info.certification.reduce((accumulator, certification) => {
+  if (accumulator.length < 6 && certification.isFeatured) {
+    accumulator.push(certification);
+  }
+  return accumulator;
+}, []);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <MetaHead
+      title={"Portfolio"}
+      description={"Portfolio Web"}
+      ogImageUrl={"/assets/images/profile.png"}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      
+      <Home title={""} details={info.hero} />
+      <Experience title={"EXPERIENCIA"} details={info.experience} />
+      <Experience title={"EDUCACIÓN"} details={info.education} />
+      <section>
+        <h2 class= "w-full dark:text-light ">EXPERIENCIA CON PROYECTOS</h2>
+        <ProjectsWrapper projects={featureProjects} />
+      </section>
+      <section>
+        <h2 class= "w-full dark:text-light ">CERTIFICADOS</h2>
+        <ProjectsWrapper projects={featureCertification} />
+      </section>
+    </Layout>
+  </body>
+</html>
