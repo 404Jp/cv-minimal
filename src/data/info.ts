@@ -73,7 +73,7 @@ export const info = {
   ],
 
   education: [
-    {
+     {
       name: "DEFENSIVE SECURITY ANALYST - HTB",
       location: "academy.hackthebox.com",
       startDate: "Feb 2024",
@@ -88,6 +88,19 @@ export const info = {
         "Análisis de tráfico de red (incl. IDS/IPS)",
         "Análisis de malware",
         "Operaciones DFIR"
+      ],
+    },
+    {
+      name: "CC - International Information System Security Certification Consortium (ISC2)",
+      location: "isc2.org",
+      startDate: "Feb 2024",
+      endDate: "Actual",
+      description: [
+        "Security Principles",
+        "Business Continuity (BC), Disaster Recovery (DR) & Incident Response Concepts",
+        "Access Controls Concepts",
+        "Network Security",
+        "Security Operations",
       ],
     },
     {
