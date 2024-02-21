@@ -91,10 +91,10 @@ export const info = {
       ],
     },
     {
-      name: "CC - International Information System Security Certification Consortium (ISC2)",
+      name: "Certified in Cybersecurity (CC) - International Information System Security Certification Consortium (ISC2)",
       location: "isc2.org",
-      startDate: "Feb 2024",
-      endDate: "Actual",
+      startDate: "Ene 2024",
+      endDate: "Feb 2024",
       description: [
         "Security Principles",
         "Business Continuity (BC), Disaster Recovery (DR) & Incident Response Concepts",
