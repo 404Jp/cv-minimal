@@ -75,7 +75,7 @@ export const info = {
   education: [
      {
       name: "DEFENSIVE SECURITY ANALYST - HTB",
-      location: "academy.hackthebox.com",
+      location: "Remoto por academy.hackthebox.com",
       startDate: "Feb 2024",
       endDate: "Actual",
       description: [
@@ -92,7 +92,7 @@ export const info = {
     },
     {
       name: "Certified in Cybersecurity (CC) - International Information System Security Certification Consortium (ISC2)",
-      location: "isc2.org",
+      location: "Remoto por isc2.org",
       startDate: "Ene 2024",
       endDate: "Feb 2024",
       description: [
@@ -144,7 +144,7 @@ export const info = {
 
   projects: [
     {
-      title: "Elastic Stack with Endpoint Linux.",
+      title: "Setting Elastic Stack with Endpoint Linux.",
       isFeatured: true,
       thumbnail: "/assets/certification/dataetl.png",
       liveUrl: "https://www.elastic.co/es/security/siem",
@@ -182,6 +182,11 @@ export const info = {
   ],
 
   certification: [
+    {
+      title: "Certified in Cybersecurity (CC) - International Information System Security Certification Consortium (ISC2)",
+      isFeatured: true,
+      thumbnail: "/assets/certification/CC-ISC.png",
+    },
     {
       title: "Auditor Interno 27001:2013 - CertiProf",
       isFeatured: true,
