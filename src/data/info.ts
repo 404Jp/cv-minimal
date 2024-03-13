@@ -73,7 +73,24 @@ export const info = {
   ],
 
   education: [
-     
+   
+    {
+      name: "Security Engineer & DevSecOps - TryHackMe",
+      location: "Remoto por tryhackme.com",
+      startDate: "Marz 2024",
+      endDate: "Actual",
+      description: [
+        "Introduction to Security Engineering",
+        "Threats and Risks",
+        "Network and System Security",
+        "Software Security",
+        "Managing Incidents",
+        "Secure Software Development",
+        "Security of the Pipeline",
+        "Container Security",
+        "Infrastructure as Code"
+      ],
+    },
     {
       name: "Certified in Cybersecurity (CC) - International Information System Security Certification Consortium (ISC2)",
       location: "Remoto por isc2.org",
