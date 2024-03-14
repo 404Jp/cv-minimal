@@ -75,7 +75,7 @@ export const info = {
   education: [
    
     {
-      name: "Security Engineer & DevSecOps - TryHackMe",
+      name: "Security Engineer - DevSecOps - SOC level 1",
       location: "Remoto por tryhackme.com",
       startDate: "Marz 2024",
       endDate: "Actual",
