@@ -33,16 +33,15 @@ const featureCertification = info.certification.reduce((accumulator, certificati
 
   <body>
     <Layout>
-      
       <Home title={""} details={info.hero} />
-      <Experience title={"EXPERIENCIA"} details={info.experience} />
-      <Experience title={"EDUCACIÓN"} details={info.education} />
+      <Experience  title={"EXPERIENCIA"} details={info.experience} />
+      <div id="educ"><Experience  title={"EDUCACIÓN"} details={info.education} /> </div>
       <section>
-        <h2 class= "w-full dark:text-light ">EXPERIENCIA CON PROYECTOS</h2>
+        <h2 id=exproj class= "w-full dark:text-light ">EXPERIENCIA CON PROYECTOS</h2>
         <ProjectsWrapper projects={featureProjects} />
       </section>
       <section>
-        <h2 class= "w-full dark:text-light ">CERTIFICADOS</h2>
+        <h2 id=cert class= "w-full dark:text-light ">CERTIFICADOS</h2>
         <ProjectsWrapper projects={featureCertification} />
       </section>
     </Layout>

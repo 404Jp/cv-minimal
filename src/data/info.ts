@@ -12,7 +12,7 @@ export const info = {
         "¡Bienvenido a mi portafolio!",
         "Aquí encontrarás mi información más actualizada y una visión de mi experiencia y habilidades.",
         "Si tienes alguna pregunta o consulta, no dudes en contactarme.",
-      ],
+      ], 
     },
   ],
 
