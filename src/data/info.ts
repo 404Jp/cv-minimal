@@ -145,6 +145,12 @@ export const info = {
 
   projects: [
     {
+      title: "Landing Page with Astro JS.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/portCerrajeria.png",
+      liveUrl: "https://www.cerrajeria.shop/",
+    },
+    {
       title: "Setting Elastic Stack with Endpoint Linux.",
       isFeatured: true,
       thumbnail: "/assets/certification/dataetl.png",
