@@ -23,7 +23,7 @@ export const info = {
       place: "Freelance por Proyecto",
       location: "Remoto",
       startDate: "Sep 2023",
-      endDate: "Dic 2023",
+      endDate: "Actual",
       description: [
         "✓ Desarrollo de Websites estáticos con Astro JS y React",
         "✓ Creación de Landing Page para uso de portafolio",
