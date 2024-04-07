@@ -123,7 +123,7 @@ export const info = {
       name: "Ingeniería en Informática - UTEM",
       location: "José Pedro Alessandri 1242, Ñuñoa",
       startDate: "Mar 2018",
-      endDate: "Ago 2023",
+      endDate: "Dic 2023",
       description: [
         "Grado de ingeniería en informática de la Universidad Tecnológica Metropolitana",
         "Lenguajes de programación C / C++",
