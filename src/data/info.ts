@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
+  baseUrl: "https://cv-minimal.vercel.app/",
   name: "Jean Bouffanais",
   jobDescription: "Web Developer",
   about: ` `, 
@@ -17,13 +17,26 @@ export const info = {
   ],
 
   experience: [
-    
     {
-      name: "Full Stack Developer (Part-Time)",
+      name: "Consultor Security Engineer [Part-Time]",
+      place: "PathDefend.com",
+      location: "Remoto",
+      startDate: "Mayo 2024",
+      endDate: "Actualidad",
+      description: [
+        "✓ Charlas sobre Ciberseguridad para empresas y grupos interesados.",
+        "✓ Gobernanza y regulación.",
+        "✓ Arquitectura y endurecimiento de seguridad,.",
+        "✓ Auditoría Interna ISO 27001.",
+      ],
+      
+    },
+    {
+      name: "Full Stack Developer [Part-Time]",
       place: "Freelance por Proyecto",
       location: "Remoto",
       startDate: "Sep 2023",
-      endDate: "Actual",
+      endDate: "Feb 2024",
       description: [
         "✓ Desarrollo de Websites estáticos con Astro JS y React",
         "✓ Creación de Landing Page para uso de portafolio",
@@ -75,7 +88,7 @@ export const info = {
   education: [
    
     {
-      name: "Security Engineer - DevSecOps - SOC level 1",
+      name: "Security Engineer - DevSecOps",
       location: "Remoto por tryhackme.com",
       startDate: "Marz 2024",
       endDate: "Actual",
@@ -208,6 +221,11 @@ export const info = {
       title: "Carrera Seguridad Informática - Platzi",
       isFeatured: true,
       thumbnail: "/assets/certification/seguridad informatica.png",
+    },
+    {
+      title: "Introduction to Critical Infrastructure Protection - OPSWAT",
+      isFeatured: true,
+      thumbnail: "/assets/certification/introduction_to_cip.png",
     },
     {
       title: "Cloud Computing Avanzado para TI",
