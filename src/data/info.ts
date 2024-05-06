@@ -1,7 +1,7 @@
 export const info = {
   baseUrl: "https://cv-minimal.vercel.app/",
   name: "Jean Bouffanais",
-  jobDescription: "Web Developer",
+  jobDescription: "Computer Engineer",
   about: ` `, 
 
   hero: [
@@ -12,22 +12,21 @@ export const info = {
         "¡Bienvenido a mi portafolio!",
         "Aquí encontrarás mi información más actualizada y una visión de mi experiencia y habilidades.",
         "Si tienes alguna pregunta o consulta, no dudes en contactarme.",
+        "Estudio en curso: Google Cloud Engineer Learning Path.",
       ], 
     },
   ],
 
   experience: [
     {
-      name: "Consultor Security Engineer [Part-Time]",
+      name: "Cloud Consultant [Freelance]",
       place: "PathDefend.com",
       location: "Remoto",
       startDate: "Mayo 2024",
       endDate: "Actualidad",
       description: [
-        "✓ Charlas sobre Ciberseguridad para empresas y grupos interesados.",
-        "✓ Gobernanza y regulación.",
-        "✓ Arquitectura y endurecimiento de seguridad,.",
-        "✓ Auditoría Interna ISO 27001.",
+        "✓ Apoyo en proceso y monitoreo de entornos cloud",
+        "✓ Estudio con foco en nube GCP",
       ],
       
     },
@@ -44,7 +43,7 @@ export const info = {
       ],
     },
     {
-      name: "Práctica Profesional Unidad de Exploración de Sistemas (Full-Time)",
+      name: "Práctica Profesional Unidad de Exploración de Sistemas [Full-Time]",
       place: "Ministerio de Medio Ambiente - SEA",
       location: "Calle Miraflores 222, Santiago",
       startDate: "Mar 2023",
@@ -58,7 +57,7 @@ export const info = {
       ],
     },
     {
-      name: "Especialista en Hardware (Part-Time)",
+      name: "Especialista en Hardware [Part-Time]",
       place: "Universidad Tecnológica Metropolitana",
       location: "José Pedro Alessandri 1242, Ñuñoa",
       startDate: "Sep 2022",
@@ -71,7 +70,7 @@ export const info = {
       ],
     },
     {
-      name: "Armado y Mantenimiento de Hardware de minería (Full-Time)",
+      name: "Armado y Mantenimiento de Hardware de minería [Full-Time]",
       place: "Freelance",
       location: "",
       startDate: "Jun 2020",
@@ -86,37 +85,6 @@ export const info = {
   ],
 
   education: [
-   
-    {
-      name: "Security Engineer - DevSecOps",
-      location: "Remoto por tryhackme.com",
-      startDate: "Marz 2024",
-      endDate: "Actual",
-      description: [
-        "Introduction to Security Engineering",
-        "Threats and Risks",
-        "Network and System Security",
-        "Software Security",
-        "Managing Incidents",
-        "Secure Software Development",
-        "Security of the Pipeline",
-        "Container Security",
-        "Infrastructure as Code"
-      ],
-    },
-    {
-      name: "Certified in Cybersecurity (CC) - International Information System Security Certification Consortium (ISC2)",
-      location: "Remoto por isc2.org",
-      startDate: "Ene 2024",
-      endDate: "Feb 2024",
-      description: [
-        "Security Principles",
-        "Business Continuity (BC), Disaster Recovery (DR) & Incident Response Concepts",
-        "Access Controls Concepts",
-        "Network Security",
-        "Security Operations",
-      ],
-    },
     {
       name: "Fundamentos de Ciberseguridad un enfoque práctico - UC3M",
       location: "Remoto por Edx",
