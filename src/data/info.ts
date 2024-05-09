@@ -12,7 +12,7 @@ export const info = {
         "¡Bienvenido a mi portafolio!",
         "Aquí encontrarás mi información más actualizada y una visión de mi experiencia y habilidades.",
         "Si tienes alguna pregunta o consulta, no dudes en contactarme.",
-        "Estudio en curso: Google Cloud Engineer Learning Path.",
+        "Estudio en curso: Cloud Engineer Learning Path.",
       ], 
     },
   ],
@@ -25,8 +25,9 @@ export const info = {
       startDate: "Mayo 2024",
       endDate: "Actualidad",
       description: [
-        "✓ Apoyo en proceso y monitoreo de entornos cloud",
-        "✓ Estudio con foco en nube GCP",
+        "✓ Colaboración en equipos multidisciplinarios para optimizar la seguridad de infraestructuras Cloud.",
+        "✓ Apoyo en el monitoreo y procesos de entornos Cloud, con un enfoque en soluciones.",
+
       ],
       
     },
@@ -125,6 +126,12 @@ export const info = {
   },
 
   projects: [
+    {
+      title: "WebSite And Infra.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/pathfdefend-home.png",
+      liveUrl: "https://pathdefend.com/",
+    },
     {
       title: "Landing Page with Astro JS.",
       isFeatured: true,
