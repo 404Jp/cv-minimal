@@ -35,9 +35,10 @@ export const info = {
       startDate: "Sep 2023",
       endDate: "Actualidad",
       description: [
-        "✓ Desarrollo de Websites estáticos con Astro JS y React",
-        "✓ Creación de Landing Page",
-        "✓ Vercel despliegue, configuracion DNS",
+        "✓ Desarrollo de Websites con Astro JS, React y Flowbite",
+        "✓ Creación de Landing Page y productos e-commerce.",
+        "✓ Demostración de habilidades de comunicación efectiva y colaboración con clientes para entender y cumplir con sus requisitos.",
+        "✓ Gestión del despliegue y configuración DNS en Vercel para garantizar la disponibilidad y el rendimiento óptimo de los sitios web.",
       ],
     },
     {
@@ -48,9 +49,9 @@ export const info = {
       endDate: "May 2023",
       description: [
         "✓ Programación de páginas y módulos en PHP POO",
+        "✓ backlog-driven developmen",
         "✓ Atención de tickets por medio de Jira Service Desk",
-        "✓ Ayuda y capacitación a otros colegas",
-        "✓ Consultas y Modificación de base de datos con Azure Data Studio",
+        "✓ Consultas y Modificación de base de datos SQL con Azure Data Studio",
         "✓ Metodología Scrum",
       ],
     },
