@@ -5,25 +5,25 @@ import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 import Layout from "@layouts/Layout.astro";
 
-const Projects = info.projects.map((project) => project);
+const certification = info.certification.map((certification) => certification);
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <MetaHead
-      title={"Proyectos"}
-      description={"All projects are available in this page."}
+      title={"certification"}
+      description={"All certification are available in this page."}
       ogImageUrl={"/assets/images/profile.png"}
     />
   </head>
 
   <body>
     <Layout>
-      <h1 style="line-height: 1.2;">Proyectos</h1>
+      <h1 style="line-height: 1.2;">Certificados</h1>
       <p class="mb-3 text-lg text-gray-500 md:text-xl dark:text-white">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work and deploy.</p>
       <p class="text-gray-500 dark:text-white">Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>
-      <ProjectsWrapper projects={Projects} />
+      <ProjectsWrapper projects={certification} />
     </Layout>
   </body>
 </html>

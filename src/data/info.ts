@@ -9,38 +9,35 @@ export const info = {
       name: "Jean P. Bouffanais",
       location: "Santiago, Chile 🌎",
       description: [
-        "¡Bienvenido a mi portafolio!",
+        "¡Bienvenido!",
         "Aquí encontrarás mi información más actualizada y una visión de mi experiencia y habilidades.",
         "Si tienes alguna pregunta o consulta, no dudes en contactarme.",
-        "Estudio en curso: Cloud Engineer Learning Path.",
       ], 
     },
   ],
 
   experience: [
     {
-      name: "Cloud Consultant [Freelance]",
-      place: "PathDefend.com",
+      name: "Creador y Editor de Code World Newsletter",
+      place: "codeworld.online",
       location: "Remoto",
       startDate: "Mayo 2024",
       endDate: "Actualidad",
       description: [
-        "✓ Colaboración en equipos multidisciplinarios para optimizar la seguridad de infraestructuras Cloud.",
-        "✓ Apoyo en el monitoreo y procesos de entornos Cloud, con un enfoque en soluciones.",
-
+        "Responsable de la creación, redacción y gestión de la newsletter Code World en la plataforma Beehiiv, enfocada en noticias y tendencias del mundo de la programación y la tecnología"
       ],
       
     },
     {
-      name: "Full Stack Developer [Part-Time]",
+      name: "Desarrollador Web [Freelance]",
       place: "Freelance por Proyecto",
       location: "Remoto",
       startDate: "Sep 2023",
-      endDate: "Feb 2024",
+      endDate: "Actualidad",
       description: [
         "✓ Desarrollo de Websites estáticos con Astro JS y React",
-        "✓ Creación de Landing Page para uso de portafolio",
-        "✓ Vercel despliegue, gestión de sitios web con Astro JS",
+        "✓ Creación de Landing Page",
+        "✓ Vercel despliegue, configuracion DNS",
       ],
     },
     {

@@ -6,6 +6,7 @@ import Home from "@components/home/Home.astro";
 import Experience from "@components/home/Experience.astro";
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
+import Timeline from "@components/home/Timeline.astro"
 
 const featureProjects = info.projects.reduce((accumulator, project) => {
   if (accumulator.length < 6 && project.isFeatured) {
@@ -32,20 +33,24 @@ const featureCertification = info.certification.reduce((accumulator, certificati
   </head>
 
   <body>
+    <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
     <Layout>
       <Home title={""} details={info.hero} />
-      <section>
-        <br>
-        <h2 id=exproj class= "w-full dark:text-light ">EXPERIENCIA CON PROYECTOS</h2>
-        <ProjectsWrapper projects={featureProjects} />
-      </section>
+      <div id="exp">
+      <Experience  title={"EXPERIENCIA"} details={info.experience} />
+    </div>
+      <div id="educ">
+        <Experience  title={"EDUCACIÓN"} details={info.education} /> 
+        </div>
       <section>
         <h2 id=cert class= "w-full dark:text-light ">CERTIFICADOS</h2>
         <ProjectsWrapper projects={featureCertification} />
       </section>
-      <Experience  title={"EXPERIENCIA"} details={info.experience} />
-      <div id="educ"><Experience  title={"EDUCACIÓN"} details={info.education} /> </div>
-     
+      <section>
+        <br>
+        <h2 id=exproj class= "w-full dark:text-light ">EXPERIENCIA CON PROYECTOS</h2>
+        <ProjectsWrapper projects={featureProjects} />
+      </section>   
     </Layout>
   </body>
 </html>
