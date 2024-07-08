@@ -36,21 +36,6 @@ const featureCertification = info.certification.reduce((accumulator, certificati
     <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
     <Layout>
       <Home title={""} details={info.hero} />
-      <div id="exp">
-      <Experience  title={"EXPERIENCIA"} details={info.experience} />
-    </div>
-      <div id="educ">
-        <Experience  title={"EDUCACIÓN"} details={info.education} /> 
-        </div>
-      <section>
-        <h2 id=cert class= "w-full dark:text-light ">CERTIFICADOS</h2>
-        <ProjectsWrapper projects={featureCertification} />
-      </section>
-      <section>
-        <br>
-        <h2 id=exproj class= "w-full dark:text-light ">EXPERIENCIA CON PROYECTOS</h2>
-        <ProjectsWrapper projects={featureProjects} />
-      </section>   
     </Layout>
   </body>
 </html>

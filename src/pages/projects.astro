@@ -1,10 +1,9 @@
 ---
 import { info } from "@data";
-
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 import Layout from "@layouts/Layout.astro";
-
+import RRSS from "@components/general/RRSS.astro";
 const Projects = info.projects.map((project) => project);
 ---
 
@@ -20,7 +19,12 @@ const Projects = info.projects.map((project) => project);
 
   <body>
     <Layout>
-      <h1 style="line-height: 1.2;">Proyectos</h1>
+      <h1 style="line-height: 1.2;">Projects</h1>
+      <br>
+      <p class="mb-3 text-lg text-gray-500 md:text-xl dark:text-white">Here are some of my most significant projects.</p>
+      <p class="text-gray-500 dark:text-white">I undertake projects that align with my personal interests and areas of specialization, continuously striving to enhance my skills and knowledge. Please note that not all of my projects are public due to confidentiality and other restrictions, so it is not always possible to showcase the code.</p>
+      <br>
+      <RRSS/>
       <ProjectsWrapper projects={Projects} />
     </Layout>
   </body>
