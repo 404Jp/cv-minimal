@@ -1,31 +1,34 @@
 ---
 import { info } from "@data";
-
-import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
-import MetaHead from "@components/general/MetaHead.astro";
 import Layout from "@layouts/Layout.astro";
-import RRSS from "@components/general/RRSS.astro";
-const certification = info.certification.map((certification) => certification);
+import Home from "@components/home/Home.astro";
+import Experience from "@components/home/Experience.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+import Timeline from "@components/home/Timeline.astro"
+
+const featureProjects = info.projects.reduce((accumulator, project) => {
+  if (accumulator.length < 6 && project.isFeatured) {
+    accumulator.push(project);
+  }
+  return accumulator;
+}, []);
+const featureCertification = info.certification.reduce((accumulator, certification) => {
+  if (accumulator.length < 6 && certification.isFeatured) {
+    accumulator.push(certification);
+  }
+  return accumulator;
+}, []);
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <MetaHead
-      title={"certification"}
-      description={"All certification are available in this page."}
+    <MetaHead title={"Portfolio"}
+      description={"Portfolio Web"}
       ogImageUrl={"/assets/images/profile.png"}
     />
   </head>
 
   <body>
-    <Layout>
-      <h1 style="line-height: 1.2;">Certificados</h1>
-      <p class="mb-3 text-lg text-gray-500 md:text-xl dark:text-white">Aquí están mis certificaciones más relevantes.</p>
-      <p class="text-gray-500 dark:text-white">Persigo certificaciones basadas en intereses personales y especializaciones en Ciberseguridad principalmente, siempre esforzándome por la mejora continua.</p>
-      <br>
-      <RRSS/>
-      <ProjectsWrapper projects={certification} />
-    </Layout>
+    <Layout> <Home title={""} details={info.hero} /></Layout>
   </body>
-</html>
