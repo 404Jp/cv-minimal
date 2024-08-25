@@ -116,20 +116,6 @@ export const info = {
 
   projects: [
     {
-      title: "WebSite And Infra.",
-      isFeatured: true,
-      thumbnail: "/assets/certification/pathfdefend-home.png",
-      liveUrl: "https://pathdefend.com/",
-      tag: "Dev"
-    },
-    {
-      title: "Landing Page with Astro JS.",
-      isFeatured: true,
-      thumbnail: "/assets/certification/portCerrajeria.png",
-      liveUrl: "https://www.cerrajeria.shop/",
-      tag: "Dev"
-    },
-    {
       title: "Cybersecurity Job Simulation - JPMorgan Chase&Co.",
       isFeatured: true,
       thumbnail: "/assets/certification/3312.png",
@@ -160,6 +146,17 @@ export const info = {
   ],
 
   certification: [
+    {
+      title: "Cybersecurity Job Simulation - MasterCard.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/mastercard.png",
+      tag: "CyberSecurty"
+    },
+    {
+      title: "Certificate Of Completion Ciberseguridad nivel Medio - BID",
+      isFeatured: true,
+      thumbnail: "/assets/certification/BID.png",
+    },
     {
       title: "Certificate Of Completion DevSecOps - TryHackMe",
       isFeatured: true,
@@ -194,16 +191,6 @@ export const info = {
       title: "Udemy Curso Completo",
       isFeatured: true,
       thumbnail: "/assets/certification/UC-10a54f43-cde8-4591-b59e-59b878192458.jpg",
-    },
-    {
-      title: "Regresión lineal con Python",
-      isFeatured: true,
-      thumbnail: "/assets/certification/lineral.jpeg",
-    },
-    {
-      title: "Comunicación con satélites",
-      isFeatured: true,
-      thumbnail: "/assets/certification/satellite.jpeg",
-    },
+    }
   ],
 };
