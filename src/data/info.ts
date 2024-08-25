@@ -9,9 +9,8 @@ export const info = {
       name: "Jean P. Bouffanais",
       location: "Santiago, Chile 🌎",
       description: [
-        "Welcome to my Portfolio!",
-        "I'm Jean Bouffanais, a developer specializing in web technologies and cloud computing. My mission is to design and develop technological solutions that drive business success. In this portfolio, you can find examples of my work.",
-        "Visit the Freelance Services section to see the solutions I offer. If you have any questions or would like to collaborate, feel free to contact me.",
+        "¡Bienvenidos!",
+        "Soy Ingeniero en Informática con certificaciones en ciberseguridad y experiencia en simulaciones de seguridad en empresas líderes como JPMorgan y Mastercard. Explora mis certificaciones y proyectos en ciberseguridad. Estoy abierto a consultas y oportunidades profesionales en el campo de la seguridad informática.",
       ], 
     },
   ],
@@ -181,6 +180,13 @@ export const info = {
       title: "Introduction to Critical Infrastructure Protection - OPSWAT",
       isFeatured: true,
       thumbnail: "/assets/certification/introduction_to_cip.png",
+    },
+    {
+      title: "Cybersecurity Job Simulation - JPMorgan Chase&Co.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/3312.png",
+      githubUrl: "https://github.com/404jp/Spam-Email-Classifier-using-Logistic-Regression",
+      tag: "CyberSecurty"
     },
     {
       title: "Cloud Computing Avanzado para TI",
