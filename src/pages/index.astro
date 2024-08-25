@@ -30,5 +30,13 @@ const featureCertification = info.certification.reduce((accumulator, certificati
   </head>
 
   <body>
-    <Layout> <Home title={""} details={info.hero} /></Layout>
+    <Layout> 
+      <Home title={""} details={info.hero} />
+      <div id="educ">
+        <Experience  title={"EDUCATION"} details={info.education} /> 
+        </div>
+      <div id="exp">
+      <Experience  title={"EXPERIENCE"} details={info.experience} />
+    </div>
+    </Layout>
   </body>

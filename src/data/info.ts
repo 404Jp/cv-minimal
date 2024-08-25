@@ -3,107 +3,101 @@ export const info = {
   name: "Jean Bouffanais",
   jobDescription: "Computer Engineer",
   about: ` `, 
-
-  hero: [
+"hero": [
     {
-      name: "Jean P. Bouffanais",
-      location: "Santiago, Chile 🌎",
-      description: [
-        "¡Bienvenidos!",
-        "Soy Ingeniero en Informática con certificaciones en ciberseguridad y experiencia en simulaciones de seguridad en empresas líderes como JPMorgan y Mastercard. Explora mis certificaciones y proyectos en ciberseguridad. Estoy abierto a consultas y oportunidades profesionales en el campo de la seguridad informática.",
-      ], 
-    },
+      "name": "Jean P. Bouffanais",
+      "location": "Santiago, Chile 🌎",
+      "description": [
+        "¡Bienvenido a mi portafolio!",
+        "Soy Ingeniero en Informática con una sólida formación en ciberseguridad, avalada por certificaciones como Certified in Cybersecurity (CC) y Auditor Interno ISO 27001. He participado en simulaciones de seguridad en empresas líderes como JPMorgan y Mastercard. Mi objetivo es contribuir al fortalecimiento de la seguridad informática de las organizaciones mediante la aplicación de mis conocimientos en ciberseguridad y auditorías internas. Te invito a explorar mis certificaciones y proyectos, y estoy abierto a consultas y oportunidades laborales en el campo de la ciberseguridad."
+      ]
+    }
   ],
 
-  experience: [
+  "experience": [
     {
-      name: "Web Developer [Part-Time]",
-      place: "Project-Based - Freelance",
-      location: "Remote",
-      startDate: "Sep 2023",
-      endDate: "Present",
-      description: [
-        "✓ Developed websites using Astro JS, React, and Flowbite.",
-        "✓ Created landing pages and e-commerce products for service providers.",
-        "✓ Demonstrated effective communication and collaboration with clients to meet their requirements.",
-        "✓ Managed deployment and DNS configuration on Vercel to ensure optimal website performance.",
-        "✓ Designed and configured e-commerce sites using WordPress and Shopify.",
-        "✓ Implemented websites on AWS."
-      ],
+      "name": "Ingeniero de Soporte IT [Reemplazo Temporal]",
+      "place": "Transportes Buffalo",
+      "location": "Santiago de Chile",
+      "startDate": "Mar 2024",
+      "endDate": "Jun 2024",
+      "description": [
+        "✓ Brindé soporte técnico a usuarios y resolví incidencias relacionadas con hardware y software.",
+        "✓ Implementé medidas de seguridad informática para proteger la infraestructura tecnológica de la empresa.",
+        "✓ Colaboré en la optimización de sistemas operativos Windows y Linux para mejorar la seguridad y el rendimiento.",
+        "✓ Asistí en la configuración y mantenimiento de redes y dispositivos periféricos."
+      ]
     },
     {
-      name: "Professional Internship, System Exploration Unit [Full-Time]",
-      place: "Ministerio de Medio Ambiente - SEA",
-      location: "Calle Miraflores 222, Santiago",
-      startDate: "Mar 2023",
-      endDate: "May 2023",
-      description: [
-        "✓ Programmed pages and modules with OOP PHP for the SEA website.",
-        "✓ Conducted backlog-driven development.",
-        "✓ Handled level 2 support tickets via Jira Service Desk.",
-        "✓ Queried and modified SQL databases.",
-        "✓ Corrected data in document management systems.",
-        "✓ Collaborated in a team using Scrum methodology."
-      ],
+      "name": "Desarrollador de Proyectos Web [Freelance]",
+      "place": "Proyectos - Freelance",
+      "location": "Santiago de Chile",
+      "startDate": "Jul 2023",
+      "endDate": "Feb 2024",
+      "description": [
+        "✓ Desarrollé sitios web responsivos utilizando HTML, CSS, JavaScript y PHP.",
+        "✓ Implementé frameworks como Bootstrap y React para la creación de sitios dinámicos.",
+        "✓ Diseñé e implementé medidas de seguridad en aplicaciones web, incluyendo la protección contra ataques comunes.",
+        "✓ Gestioné la implementación y configuración de DNS en plataformas como Vercel, asegurando un rendimiento óptimo y seguro."
+      ]
     },
     {
-      name: "Hardware Specialist [Part-Time]",
-      place: "Universidad Tecnológica Metropolitana - UTEM",
-      location: "José Pedro Alessandri 1242, Ñuñoa",
-      startDate: "Sep 2022",
-      endDate: "Dec 2022",
-      description: [
-        "✓ Managed the computer lab part-time as a temporary replacement for a colleague during a semester.",
-        "✓ Maintained and cared for lab hardware.",
-        "✓ Assisted students, faculty, and the public.",
-        "✓ Configured network devices."
-      ],
+      "name": "Práctica Profesional, Unidad de Exploración de Sistemas [Tiempo Completo]",
+      "place": "SEA - Ministerio de Medio Ambiente",
+      "location": "Santiago de Chile",
+      "startDate": "Mar 2023",
+      "endDate": "May 2023",
+      "description": [
+        "✓ Programé páginas y módulos con PHP orientado a objetos para el sitio web del SEA.",
+        "✓ Gestioné tickets de soporte de nivel 2 y colaboré en la resolución de incidencias.",
+        "✓ Participé en la implementación de políticas de seguridad informática en la plataforma del SEA.",
+        "✓ Colaboré en equipo utilizando la metodología Scrum para mejorar la seguridad y la eficiencia de los sistemas."
+      ]
     },
     {
-      name: "Hardware Assembly and Maintenance for Mining [Full-Time]",
-      place: "Project-Based - Freelance",
-      location: "",
-      startDate: "Jun 2020",
-      endDate: "May 2021",
-      description: [
-        "✓ Assembled Ethereum mining rigs with Nvidia and AMD graphics cards.",
-        "✓ Maintained mining rigs.",
-        "✓ Configured Hiveon mining pools.",
-        "✓ Set up cryptocurrency wallets."
-      ],
-    },
+      "name": "Especialista en Hardware [Medio Tiempo]",
+      "place": "Universidad Tecnológica Metropolitana - UTEM",
+      "location": "Santiago de Chile",
+      "startDate": "Sep 2022",
+      "endDate": "Dic 2022",
+      "description": [
+        "✓ Administré y mantuve el hardware del laboratorio de computación.",
+        "✓ Asistí a estudiantes, profesores y usuarios en la resolución de problemas técnicos.",
+        "✓ Configuré dispositivos de red y mantuve la seguridad de los sistemas.",
+        "✓ Colaboré en la implementación de medidas de seguridad informática para proteger los recursos del laboratorio."
+      ]
+    }
   ],
-  
 
-  education: [
+  "education": [
     {
-      name: "Fundamentals of Cybersecurity: A Practical Approach - UC3M",
-      location: "Remote via Edx",
-      startDate: "Nov 2023",
-      endDate: "Jan 2024",
-      description: [
-        "This practical course from Universidad Carlos III de Madrid covered key aspects of cybersecurity, including:",
-        "Forensic Computing",
-        "Reverse Engineering",
-        "Cyber Defense",
-        "Malware and Advanced Persistent Threats (APTs)",
-        "Vulnerabilities and Exposures",
-      ],
+      "name": "Fundamentos de Ciberseguridad: Un Enfoque Práctico - UC3M",
+      "location": "Remoto vía Edx",
+      "startDate": "Nov 2023",
+      "endDate": "Ene 2024",
+      "description": [
+        "Este curso práctico de la Universidad Carlos III de Madrid cubrió aspectos clave de la ciberseguridad, incluyendo:",
+        "Computación Forense",
+        "Ingeniería Inversa",
+        "Ciberdefensa",
+        "Malware y Amenazas Persistentes Avanzadas (APT)",
+        "Vulnerabilidades y Exposiciones"
+      ]
     },
     {
-      name: "Bachelor's in Computer Engineering - UTEM",
-      location: "José Pedro Alessandri 1242, Ñuñoa",
-      startDate: "Mar 2018",
-      endDate: "Dec 2023",
-      description: [
-        "I earned my degree in Computer Engineering from the Metropolitan Technological University, specializing in:",
-        "C/C++ Programming Languages",
-        "System Auditing",
-        "Cybersecurity Topics",
-        "Mobile Development (React Native & Firebase)",
-      ],
-    },
+      "name": "Ingeniería en Informática - UTEM",
+      "location": "Santiago de Chile",
+      "startDate": "Mar 2018",
+      "endDate": "Jun 2024",
+      "description": [
+        "Obtuve mi título en Ingeniería en Informática de la Universidad Tecnológica Metropolitana, especializándome en:",
+        "C/C++ y Desarrollo de Software",
+        "Auditoría de Sistemas y Ciberseguridad",
+        "Desarrollo Móvil (React Native & Firebase)"
+      ]
+    }
   ],
+
 
   socialMedia: {
     facebook: "https://www.facebook.com/",
