@@ -5,6 +5,7 @@ import Home from "@components/home/Home.astro";
 import Experience from "@components/home/Experience.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 import Timeline from "@components/home/Timeline.astro"
+import GoogleAnalytics from "@components/GoogleAnalytics.astro";
 
 const featureProjects = info.projects.reduce((accumulator, project) => {
   if (accumulator.length < 6 && project.isFeatured) {
@@ -27,7 +28,9 @@ const featureCertification = info.certification.reduce((accumulator, certificati
       description={"Portfolio Web"}
       ogImageUrl={"/assets/images/profile.png"}
     />
+    <GoogleAnalytics />
   </head>
+  
 
   <body>
     <Layout> 
