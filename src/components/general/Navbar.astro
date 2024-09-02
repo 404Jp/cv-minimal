@@ -2,27 +2,15 @@
 import { info } from "@data";
 import { createLogo } from "@utils";
 import RRSS from "@components/general/RRSS.astro";
-
 ---
-<nav class="bg-white border-gray-200 dark:bg-black">
-  <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+
+<nav class="bg-white border-gray-200 dark:bg-black fixed w-full z-10">
+  <div class="container mx-auto flex flex-wrap justify-center md:justify-between items-center p-4">
     <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="./logo-nav.png" class="h-8" alt="Logo" />
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Portfolio</span>
-    </a>
+    </a><br><br>
     <div class="flex items-center space-x-6 rtl:space-x-reverse">
-      <button
-        aria-label="theme-button"
-        id="theme-button"
-        class="dark:text-light rounded-lg p-4 ml-2 bg-slate-100 dark:bg-[#202020]"
-      ></button>
-    </div>
-  </div>
-</nav>
-
-<nav class="bg-gray-50 dark:bg-gray-700" id="scrollNav">
-  <div class="max-w-screen-xl px-4 py-3 mx-auto">
-    <div class="flex items-center">
       <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
         <li>
           <a href="/" class="text-gray-900 dark:text-white hover:underline">Inicio</a>
@@ -33,7 +21,6 @@ import RRSS from "@components/general/RRSS.astro";
         <li>
           <a href="/projects" class="text-gray-900 dark:text-white hover:underline">Proyectos</a>
         </li>
-        
       </ul>
     </div>
   </div>
@@ -41,11 +28,11 @@ import RRSS from "@components/general/RRSS.astro";
 
 <script>
   window.addEventListener('scroll', function() {
-    var nav = document.getElementById('scrollNav');
+    var nav = document.querySelector('nav');
     if (window.scrollY > 0) {
-      nav.classList.add('fixed', 'top-0', 'left-0', 'w-full', 'z-10');
+      nav.classList.add('shadow-lg', 'bg-opacity-90');
     } else {
-      nav.classList.remove('fixed', 'top-0', 'left-0', 'w-full', 'z-10');
+      nav.classList.remove('shadow-lg', 'bg-opacity-90');
     }
   });
 </script>

@@ -9,14 +9,15 @@ export const info = {
       "location": "Santiago, Chile 🌎",
       "description": [
         "¡Bienvenido a mi portafolio!",
-        "Soy Ingeniero en Informática con una sólida formación en ciberseguridad, avalada por certificaciones como Certified in Cybersecurity (CC) y Auditor Interno ISO 27001. He participado en simulaciones de seguridad en empresas líderes como JPMorgan y Mastercard. Mi objetivo es contribuir al fortalecimiento de la seguridad informática de las organizaciones mediante la aplicación de mis conocimientos en ciberseguridad y auditorías internas. Te invito a explorar mis certificaciones y proyectos, y estoy abierto a consultas y oportunidades laborales en el campo de la ciberseguridad."
+        "Te invito a explorar mis certificaciones y proyectos, donde demuestro mis principales habilidades y experiencia."
+        
       ]
     }
   ],
 
   "experience": [
     {
-      "name": "Ingeniero de Soporte IT [Reemplazo Temporal]",
+      "name": "Soporte IT [Reemplazo Temporal]",
       "place": "Transportes Buffalo",
       "location": "Santiago de Chile",
       "startDate": "Mar 2024",
@@ -69,34 +70,44 @@ export const info = {
     }
   ],
 
-  "education": [
-    {
-      "name": "Fundamentos de Ciberseguridad: Un Enfoque Práctico - UC3M",
-      "location": "Remoto vía Edx",
-      "startDate": "Nov 2023",
-      "endDate": "Ene 2024",
-      "description": [
-        "Este curso práctico de la Universidad Carlos III de Madrid cubrió aspectos clave de la ciberseguridad, incluyendo:",
-        "Computación Forense",
-        "Ingeniería Inversa",
-        "Ciberdefensa",
-        "Malware y Amenazas Persistentes Avanzadas (APT)",
-        "Vulnerabilidades y Exposiciones"
-      ]
-    },
-    {
-      "name": "Ingeniería en Informática - UTEM",
-      "location": "Santiago de Chile",
-      "startDate": "Mar 2018",
-      "endDate": "Jun 2024",
-      "description": [
-        "Obtuve mi título en Ingeniería en Informática de la Universidad Tecnológica Metropolitana, especializándome en:",
-        "C/C++ y Desarrollo de Software",
-        "Auditoría de Sistemas y Ciberseguridad",
-        "Desarrollo Móvil (React Native & Firebase)"
-      ]
-    }
-  ],
+"education": [
+  {
+    "name": "SOC Analyst - Cybrary",
+    "location": "Remoto",
+    "startDate": "Julio 2024",
+    "endDate": "",
+    "description": [
+      "Actualmente en proceso de completar un curso de 31 horas, que incluye 20 cursos y laboratorios prácticos enfocados en la seguridad defensiva.",
+      "Estoy desarrollando habilidades en análisis y gestión de tickets de seguridad dentro de un Security Operations Center (SOC), con un enfoque en:",
+      "- Defensive Security Fundamentals",
+      "- Log Analysis",
+      "- Host-Based Detection",
+      "- Network-Based Detection",
+      "El curso también me prepara para especializarme en áreas avanzadas como Threat Intelligence, Incident Response, y Malware Analysis."
+    ]
+  },
+  {
+    "name": "Ingeniería en Informática - Universidad Tecnológica Metropolitana (UTEM)",
+    "location": "Santiago de Chile",
+    "startDate": "Marzo 2018",
+    "endDate": "Junio 2024",
+    "description": [
+      "Especialización en C/C++ y Desarrollo de Software, Auditoría de Sistemas y Ciberseguridad, y Desarrollo Móvil (React Native & Firebase).",
+      "Proyecto de titulación enfocado en la implementación de sistemas seguros."
+    ]
+  },
+  {
+    "name": "Fundamentos de Ciberseguridad: Un Enfoque Práctico - Universidad Carlos III de Madrid (UC3M)",
+    "location": "Remoto vía Edx",
+    "startDate": "Noviembre 2023",
+    "endDate": "Enero 2024",
+    "description": [
+      "Curso especializado que abarcó Computación Forense, Ingeniería Inversa, Ciberdefensa, Malware y Amenazas Persistentes Avanzadas (APT).",
+      "Desarrollé habilidades prácticas para identificar y mitigar vulnerabilidades de seguridad."
+    ]
+  }
+]
+,
 
 
   socialMedia: {
@@ -174,13 +185,6 @@ export const info = {
       title: "Introduction to Critical Infrastructure Protection - OPSWAT",
       isFeatured: true,
       thumbnail: "/assets/certification/introduction_to_cip.png",
-    },
-    {
-      title: "Cybersecurity Job Simulation - JPMorgan Chase&Co.",
-      isFeatured: true,
-      thumbnail: "/assets/certification/3312.png",
-      githubUrl: "https://github.com/404jp/Spam-Email-Classifier-using-Logistic-Regression",
-      tag: "CyberSecurty"
     },
     {
       title: "Cloud Computing Avanzado para TI",
