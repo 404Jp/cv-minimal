@@ -72,21 +72,6 @@ export const info = {
 
 "education": [
   {
-    "name": "SOC Analyst - Cybrary",
-    "location": "Remoto",
-    "startDate": "Julio 2024",
-    "endDate": "",
-    "description": [
-      "Actualmente en proceso de completar un curso de 31 horas, que incluye 20 cursos y laboratorios prácticos enfocados en la seguridad defensiva.",
-      "Estoy desarrollando habilidades en análisis y gestión de tickets de seguridad dentro de un Security Operations Center (SOC), con un enfoque en:",
-      "- Defensive Security Fundamentals",
-      "- Log Analysis",
-      "- Host-Based Detection",
-      "- Network-Based Detection",
-      "El curso también me prepara para especializarme en áreas avanzadas como Threat Intelligence, Incident Response, y Malware Analysis."
-    ]
-  },
-  {
     "name": "Ingeniería en Informática - Universidad Tecnológica Metropolitana (UTEM)",
     "location": "Santiago de Chile",
     "startDate": "Marzo 2018",
