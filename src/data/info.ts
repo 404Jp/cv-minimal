@@ -105,6 +105,12 @@ export const info = {
 
   projects: [
     {
+      title: "Cybersecurity Job Simulation - MasterCard.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/mastercard.png",
+      tag: "CyberSecurty"
+    },
+    {
       title: "Cybersecurity Job Simulation - JPMorgan Chase&Co.",
       isFeatured: true,
       thumbnail: "/assets/certification/3312.png",
@@ -136,9 +142,9 @@ export const info = {
 
   certification: [
     {
-      title: "Cybersecurity Job Simulation - MasterCard.",
+      title: "Curso CCT - Academia Ciberseguridad.",
       isFeatured: true,
-      thumbnail: "/assets/certification/mastercard.png",
+      thumbnail: "/assets/certification/AcademiaCiberseguridad.png",
       tag: "CyberSecurty"
     },
     {
