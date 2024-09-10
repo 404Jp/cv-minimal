@@ -5,6 +5,7 @@ import Home from "@components/home/Home.astro";
 import Experience from "@components/home/Experience.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 import Timeline from "@components/home/Timeline.astro"
+import TimeEduc from "@components/home/TimeEduc.astro";
 import GoogleAnalytics from "@components/GoogleAnalytics.astro";
 
 const featureProjects = info.projects.reduce((accumulator, project) => {
@@ -35,8 +36,8 @@ const featureCertification = info.certification.reduce((accumulator, certificati
   <body>
     <Layout> 
       <Home title={""} details={info.hero} />
-      <div id="educ">
-        <Experience  title={"Educación"} details={info.education} /> 
-        </div>
+      <TimeEduc/>
+        <Timeline/>
     </Layout>
+    
   </body>
