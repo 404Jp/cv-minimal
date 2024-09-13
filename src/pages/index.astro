@@ -7,6 +7,9 @@ import MetaHead from "@components/general/MetaHead.astro";
 import Timeline from "@components/home/Timeline.astro"
 import TimeEduc from "@components/home/TimeEduc.astro";
 import GoogleAnalytics from "@components/GoogleAnalytics.astro";
+import RRSS from "@components/general/RRSS.astro";
+import Skill from "@components/home/Skill.astro";
+
 
 const featureProjects = info.projects.reduce((accumulator, project) => {
   if (accumulator.length < 6 && project.isFeatured) {
@@ -31,13 +34,13 @@ const featureCertification = info.certification.reduce((accumulator, certificati
     />
     <GoogleAnalytics />
   </head>
-  
-
   <body>
     <Layout> 
       <Home title={""} details={info.hero} />
-      <TimeEduc/>
-        <Timeline/>
+      <Skill/>
+      <RRSS/><br><br>
     </Layout>
-    
   </body>
+
+
+  

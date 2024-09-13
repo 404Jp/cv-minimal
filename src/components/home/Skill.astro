@@ -1,0 +1,101 @@
+<style>
+    /* Contenedor principal que alinea los elementos uno al lado del otro */
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap; /* Permite que los elementos bajen a la siguiente línea cuando no quepan */
+      justify-content: center; /* Centra las secciones horizontalmente */
+      gap: 20px; /* Espacio entre las secciones */
+      padding: 20px;
+    }
+  
+    /* Estilo para cada sección */
+    .skills-section {
+      background-color: transparent; /* Fondo transparente */
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1 1 250px; /* Mínimo de 250px por sección, y se expanden hasta llenar el espacio */
+      max-width: 300px; /* Máximo ancho por sección */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor de las tarjetas */
+    }
+  
+    h2 {
+      font-size: 1.25rem;
+      color: #ecf0f1;
+    }
+  
+    .main-title {
+      text-align: center; /* Centra el título principal */
+      font-size: 1.5rem; /* Tamaño de fuente para el título principal */
+      color: #ecf0f1;
+      margin-bottom: 20px; /* Espacio debajo del título principal */
+    }
+  
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+  
+    li {
+      color: #ecf0f1;
+    }
+  </style>
+  
+  <div>
+    <h2 class="main-title">Habilidades y Herramientas</h2> <!-- Título principal centrado y en h2 -->
+  </div>
+  
+  <div class="skills-container">
+    <!-- Sección de Programación -->
+    <div class="skills-section">
+      <h2>Habilidades en Programación:</h2>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>C/C++</li>
+        <li>SQL</li>
+        <li>Desarrollo web (HTML, CSS, JavaScript)</li>
+      </ul>
+    </div>
+  
+    <!-- Sección de Ciberseguridad -->
+    <div class="skills-section">
+      <h2>Habilidades en Ciberseguridad:</h2>
+      <ul>
+        <li>Auditorías ISO/IEC 27001:2013</li>
+        <li>Análisis de vulnerabilidades</li>
+        <li>Configuración de firewalls y IDS/IPS</li>
+        <li>Ethical Hacking (penetration testing)</li>
+        <li>Análisis de malware y respuesta a incidentes</li>
+      </ul>
+    </div>
+  
+    <!-- Sección de Sistemas -->
+    <div class="skills-section">
+      <h2>Habilidades en Sistemas:</h2>
+      <ul>
+        <li>Administración de sistemas Linux (Debian, Fedora)</li>
+        <li>Gestión de redes y servicios (DNS, DHCP, HTTP)</li>
+        <li>Automatización con bash y scripts</li>
+        <li>Monitorización de sistemas (Nagios, Zabbix)</li>
+      </ul>
+    </div>
+  
+    <!-- Sección de Cloud - Infraestructura y Contenedores -->
+    <div class="skills-section">
+      <h2>Habilidades en Cloud - Infraestructura:</h2>
+      <ul>
+        <li>Administración de entornos en AWS</li>
+        <li>Infraestructura como código (Terraform)</li>
+      </ul>
+    </div>
+  
+    <!-- Sección de Cloud - Contenedores y Orquestación -->
+    <div class="skills-section">
+      <h2>Habilidades en Cloud - Contenedores:</h2>
+      <ul>
+        <li>Uso de contenedores con Docker</li>
+        <li>Kubernetes para orquestación de contenedores</li>
+      </ul>
+    </div>
+  </div>
+  
