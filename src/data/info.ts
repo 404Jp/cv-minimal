@@ -16,6 +16,7 @@ export const info = {
   ],
 
   "experience": [
+   
     {
       "name": "Soporte IT [Reemplazo Temporal]",
       "place": "Transportes Buffalo",
@@ -111,6 +112,20 @@ export const info = {
       tag: "CyberSecurty"
     },
     {
+      title: "Path Defend MVP.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/pathdefend.png",
+      githubUrl: "https://pathdefend.com/",
+      tag: "CyberSecurty"
+    },
+    {
+      title: "Portfolio web Personal.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/porfolio.png",
+      githubUrl: "https://github.com/404Jp/cv-minimal",
+      tag: "CyberSecurty"
+    },
+    {
       title: "Cybersecurity Job Simulation - JPMorgan Chase&Co.",
       isFeatured: true,
       thumbnail: "/assets/certification/3312.png",
@@ -142,9 +157,21 @@ export const info = {
 
   certification: [
     {
+      title: "Cybrary Cloud Computing.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/cybrary-cloud.png",
+      tag: "CyberSecurty"
+    },
+    {
       title: "Curso CCT - Academia Ciberseguridad.",
       isFeatured: true,
       thumbnail: "/assets/certification/AcademiaCiberseguridad.png",
+      tag: "CyberSecurty"
+    },
+    {
+      title: "Cybrary Defensive Security Operations.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/cybrary-cert-def.png",
       tag: "CyberSecurty"
     },
     {
