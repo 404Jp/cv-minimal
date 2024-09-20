@@ -112,6 +112,12 @@ export const info = {
       tag: "CyberSecurty"
     },
     {
+      title: "Infraesctutura Serveless AWS.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/AWS.png",
+      tag: "Cloud"
+    },
+    {
       title: "Path Defend MVP.",
       isFeatured: true,
       thumbnail: "/assets/certification/pathdefend.png",
