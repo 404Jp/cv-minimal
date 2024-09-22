@@ -111,6 +111,13 @@ export const info = {
       thumbnail: "/assets/certification/mastercard.png",
       tag: "CyberSecurty"
     },
+    
+    {
+      title: "Laboratorio Azure ID.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/lab-azure.png",
+      tag: "Cloud"
+    },
     {
       title: "Infraesctutura Serveless AWS.",
       isFeatured: true,
