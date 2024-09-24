@@ -111,6 +111,12 @@ export const info = {
       thumbnail: "/assets/certification/mastercard.png",
       tag: "CyberSecurty"
     },
+    {
+      title: "Proyecto Web SEO Integral.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/Seo.jpg",
+      tag: "Cloud"
+    },
     
     {
       title: "Laboratorio Azure ID.",
