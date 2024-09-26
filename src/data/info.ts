@@ -188,6 +188,12 @@ export const info = {
       tag: "CyberSecurty"
     },
     {
+      title: "Google Dorking.",
+      isFeatured: true,
+      thumbnail: "/assets/certification/google-dock.png",
+      tag: "CyberSecurty"
+    },
+    {
       title: "Cybrary Defensive Security Operations.",
       isFeatured: true,
       thumbnail: "/assets/certification/cybrary-cert-def.png",
