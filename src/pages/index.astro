@@ -10,7 +10,7 @@ import GoogleAnalytics from "@components/GoogleAnalytics.astro";
 import RRSS from "@components/general/RRSS.astro";
 import Skill from "@components/home/Skill.astro";
 import Services from "@components/home/services.astro";
-import Skill2 from "@components/home/Skill2.astro";
+
 
 const featureProjects = info.projects.reduce((accumulator, project) => {
   if (accumulator.length < 6 && project.isFeatured) {
@@ -41,7 +41,7 @@ const featureCertification = info.certification.reduce((accumulator, certificati
     <Layout> 
       <Home title={""} details={info.hero} />
      <div id="skill">
-      <Skill/>
+      <Skill client:load />
     </div>  
     <RRSS/>
     <br><br>
