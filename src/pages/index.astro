@@ -8,6 +8,7 @@ import Timeline from "@components/home/Timeline.astro"
 import TimeEduc from "@components/home/TimeEduc.astro";
 import GoogleAnalytics from "@components/GoogleAnalytics.astro";
 import RRSS from "@components/general/RRSS.astro";
+import Skill from "@components/home/Skill.astro";
 import Services from "@components/home/services.astro";
 
 
@@ -39,9 +40,8 @@ const featureCertification = info.certification.reduce((accumulator, certificati
   <body>
     <Layout> 
       <Home title={""} details={info.hero} />
-     <div id="skill">
-      <div>
-        
+      <div id="skill">
+      
 <div>
   <h2 class="main-title">Habilidades y Herramientas</h2> <!-- Título principal centrado y en h2 -->
 </div>
@@ -165,9 +165,8 @@ const featureCertification = info.certification.reduce((accumulator, certificati
     </div>
   </div>
   
-      </div>
-    </div>  
-    <RRSS/>
+      </div>  
+     <RRSS/>
     <br><br>
     </Layout>
   </body>
